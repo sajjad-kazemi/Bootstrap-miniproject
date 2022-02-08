@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Vazir;
+    src: url("../fonts/Vazir.eot");
+}
+
+body {
+    font-family: Vazir;
+}
+
+.icons {
+    color: #0d6efb;
+    background-color: #ebeafb;
+    padding: 15px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    display:inline-flex;
+}
+
+.wave-bg {
+    background-image: url("img/wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.ltr-input{
+    direction: ltr !important;
+    text-align: left !important;
+}
+.footer-link{
+    text-decoration: none;
+    color:#222222;
+}
+.footer-link:hover{
+    color:#222222;
+}
+.footer-header{
+    border-bottom: 3px solid black;
+}
